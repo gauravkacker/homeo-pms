@@ -19,6 +19,8 @@ A complete Homeopathy Clinic Patient Management System built with Next.js 16, Ty
 - [x] Internal messaging system
 - [x] Settings pages (general, fees, registration, slots, smart-parsing)
 - [x] Smart Parsing Settings for prescription recognition
+- [x] Enhanced smart parsing system with configurable rules
+- [x] Combination medicine dropdown handling
 - [x] Admin module (users, activity log)
 - [x] UI Components library (Button, Card, Input, Badge, PhotoUpload)
 - [x] Layout components (Header, Sidebar)
@@ -69,7 +71,11 @@ A complete Homeopathy Clinic Patient Management System built with Next.js 16, Ty
 - Natural language input for prescriptions
 - Auto-detects: quantities, dose forms, dosage patterns, durations
 - Configurable rules in Settings → Smart Parsing
-- Example: "Arnica 30C 1-0-1 for 15 days"
+- **Enhanced Parsing**: Press Ctrl+Enter to parse
+- **Quantity patterns**: 1dr, 2dr, 1/2oz, 1oz, 100ml, etc.
+- **Dose forms**: pills, tablet, liquid, drops, sachet, powder, ointment, etc.
+- **Dose patterns**: OD, BD, TDS (auto-generates 4-4-4), QID, SOS, HS, etc.
+- **Combination medicines**: Dropdown below field, displays details when saved
 
 ### Role-Based Access
 - Admin: Full access to all modules including user management
